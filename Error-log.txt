@@ -1,0 +1,97 @@
+CaveExplorer.exceptions.InvalidUserInputException: You must write a command!
+	at CaveExplorer.Parser.parseUserInput(Parser.java:32)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.InvalidUserInputException: You must write a command!
+	at CaveExplorer.Parser.parseUserInput(Parser.java:32)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: The move command requires a direction.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:29)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: forward is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: straight is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: back is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: up is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: The take command needs 1 parameter
+	at CaveExplorer.commands.TakeCommand.execute(TakeCommand.java:26)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.InvalidUserInputException: Can't do this because 'feel' is not a command!
+	at CaveExplorer.Parser.processUserCommand(Parser.java:100)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: up is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: forward is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: straight is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: back is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.InvalidUserInputException: Can't do this because 'movebackward' is not a command!
+	at CaveExplorer.Parser.processUserCommand(Parser.java:100)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: backward is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: left is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: right is not a direction to move.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.InvalidUserInputException: Can't do this because 'mine' is not a command!
+	at CaveExplorer.Parser.processUserCommand(Parser.java:100)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: The move command requires a direction.
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:29)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.GameCommandErrorException: sd is not a direction to move. (north, south, east, west)
+	at CaveExplorer.commands.MoveCommand.execute(MoveCommand.java:35)
+	at CaveExplorer.Parser.processUserCommand(Parser.java:104)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
+CaveExplorer.exceptions.InvalidUserInputException: Can't do this because 'asdf' is not a command!
+	at CaveExplorer.Parser.processUserCommand(Parser.java:100)
+	at CaveExplorer.Parser.parseUserInput(Parser.java:40)
+	at CaveExplorer.CaveExplorer.main(CaveExplorer.java:32)
