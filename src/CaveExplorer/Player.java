@@ -65,7 +65,7 @@ public class Player extends ItemHolder implements Movable {
 
         //Check if direction
         if (Direction.findByString(gameObject) != null) {
-            return currentRoom.getRoomDescriptionByDirection(gameObject);
+            return "You see: "  + currentRoom.getRoomName(gameObject) + currentRoom.getRoomDescriptionByDirection(gameObject);
         }
 
         return "There is no " + gameObject + " in your inventory, or in the room.";
@@ -118,7 +118,7 @@ public class Player extends ItemHolder implements Movable {
         } else
         {
             currentRoom = exitRoom;
-            returnString = exitRoom.getDescription();
+            returnString = "You are now in (" + exitRoom.getName() + ") a " + exitRoom.getDescription();
         }
 
         return returnString;

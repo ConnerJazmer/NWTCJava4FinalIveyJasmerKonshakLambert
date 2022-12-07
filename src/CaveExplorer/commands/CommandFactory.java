@@ -24,6 +24,7 @@ public class CommandFactory {
         lookCommand.addSynonym("inspect");
         lookCommand.addSynonym("describe");
         lookCommand.addSynonym("investigate");
+        lookCommand.addSynonym("checkout");
 
         takeCommand.addSynonym("grab");
         takeCommand.addSynonym("pickup");

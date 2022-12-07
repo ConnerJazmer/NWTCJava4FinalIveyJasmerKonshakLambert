@@ -26,13 +26,13 @@ public class MoveCommand extends Command implements GameCommand {
 
         switch (parametersLength) {
             case 0:
-                throw new GameCommandErrorException("The move command requires a direction.");
+                throw new GameCommandErrorException("The move command requires a direction. (north, south, east, west)");
             case 1:
 
                 d = Direction.findByString(parameters[0]);
 
                 if (d == null) {
-                    throw new GameCommandErrorException(parameters[0] + " is not a direction to move.");
+                    throw new GameCommandErrorException(parameters[0] + " is not a direction to move. (north, south, east, west)");
                 }
 
                 returnString = game.MovePlayer(d);

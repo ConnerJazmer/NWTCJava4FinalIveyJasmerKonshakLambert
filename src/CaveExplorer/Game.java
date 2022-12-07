@@ -108,7 +108,10 @@ public class Game {
             introMessage = rb.getString("intro_evening");
         }
 
-        System.out.println(introMessage);
+
+        // INTRO MESSAGE --------------------------------------------
+        System.out.println("\n Commands: look (north, south, east, west), move (north, south, east, west), take / drop / use, inventory, help");
+        System.out.println(introMessage + "It's hard to see so you need feel. What do you do?");
     }
 
     public String MovePlayer(Direction d) {

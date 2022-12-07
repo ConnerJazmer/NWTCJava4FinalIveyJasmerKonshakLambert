@@ -138,12 +138,34 @@ public class Room extends ItemHolder {
 
         return returnString;
     }
+    public String getRoomName (String direction) {
+        Direction d = Direction.findByString(direction);
+        String returnString;
+
+        switch (d) {
+            case North -> returnString = getRoomName2(northRoom);
+            case East -> returnString = getRoomName2(eastRoom);
+            case West -> returnString = getRoomName2(westRoom);
+            case South -> returnString = getRoomName2(southRoom);
+            default -> returnString = direction + " is not a valid direction";
+        }
+
+        return returnString;
+    }
 
     public String getRoomExitDescription(Room roomExit) {
         if (roomExit == null) {
             return "There is no exit.";
         } else {
             return roomExit.getDescription();
+        }
+
+    }
+    public String getRoomName2(Room roomExit) {
+        if (roomExit == null) {
+            return "";
+        } else {
+            return "'" + roomExit.getName() + "' ";
         }
 
     }
